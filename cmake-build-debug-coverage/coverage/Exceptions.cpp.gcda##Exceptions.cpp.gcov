@@ -1,0 +1,19 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.cpp
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/30/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "Exceptions.h"
+        -:    6:
+        -:    7:#include <utility>
+        -:    8:
+    #####:    9:Exceptions::Exceptions(std::string msg): std::exception(), _msg{std::move(msg)} {}
+    %%%%%:    9-block  0
+        -:   10:
+    #####:   11:const std::string &Exceptions::get_msg() const {
+    #####:   12:    return this->_msg;
+    %%%%%:   12-block  0
+        -:   13:}

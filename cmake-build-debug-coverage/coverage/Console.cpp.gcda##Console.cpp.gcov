@@ -1,0 +1,186 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.cpp
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Console.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Console.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/29/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include <iostream>
+        -:    6:#include <limits>
+        -:    7:#include "Console.h"
+        -:    8:#include "Exceptions.h"
+        -:    9:
+        -:   10:
+        1:   11:Console::Console(Service& service): _unicorns_exist{true}, _service{service} {}
+        -:   12:
+        2:   13:void Console::run() {
+        2:   14:    while (this->_unicorns_exist){
+        2:   14-block  0
+        1:   14-block  1
+        1:   15:        std::cout << "Choose a mode(administrator/user): ";
+        1:   15-block  0
+        1:   16:        std::string mode;
+        1:   16-block  0
+    $$$$$:   16-block  1
+        1:   17:        std::cin >> mode;
+        1:   18:        if (mode == "administrator") {
+        1:   18-block  0
+        1:   19:            this->runAdministrator();
+        1:   19-block  0
+        1:   20:            continue;
+        1:   20-block  0
+        -:   21:        }
+    #####:   22:        if (mode == "user") {
+    %%%%%:   22-block  0
+    #####:   23:            this->runUser();
+    %%%%%:   23-block  0
+    #####:   24:            continue;
+        -:   25:        }
+    #####:   26:        std::cout << "Wrong mode!";
+    %%%%%:   26-block  0
+        -:   27:        }
+        -:   28:
+        1:   29:    }
+        1:   29-block  0
+        -:   30:
+        -:   31:
+        2:   32:void Console::printMenuAdministrator() {
+        -:   33:    std::string menu = "|-----------------------------------|\n"
+        -:   34:                       "|   ~ Keep calm and adopt a pet ~   |\n"
+        -:   35:                       "|-----------------------------------|\n"
+        -:   36:                       "|         1. Add a new dog          |\n"
+        -:   37:                       "|         2. Delete a dog           |\n"
+        -:   38:                       "|         3. Update a dog           |\n"
+        -:   39:                       "|         4. See all dogs           |\n"
+        -:   40:                       "|         0. Exit                   |\n"
+        4:   41:                       "|-----------------------------------|\n";
+        2:   41-block  0
+        2:   41-block  1
+    $$$$$:   41-block  2
+    $$$$$:   41-block  3
+        2:   42:    std::cout << menu;
+        -:   43:
+        2:   44:}
+        -:   45:
+    #####:   46:void Console::printMenuUser() {
+        -:   47:
+    #####:   48:}
+        -:   49:
+        3:   50:void Console::runAdministrator() {
+        3:   51:    while (this->_unicorns_exist){
+        3:   51-block  0
+        2:   51-block  1
+        2:   52:        this->printMenuAdministrator();
+        2:   52-block  0
+        2:   53:        std::cout << ">>> ";
+        2:   53-block  0
+        2:   54:        std::string option;
+        2:   54-block  0
+    $$$$$:   54-block  1
+        2:   55:        std::cin >> option;
+        2:   56:        if (option == "0") {
+        2:   56-block  0
+        1:   57:            this->_unicorns_exist = false;
+        1:   58:            continue;
+        1:   58-block  0
+        -:   59:        }
+        1:   60:        if (option == "1") {
+        1:   60-block  0
+        1:   61:            this->addDogUi();
+        1:   61-block  0
+        1:   62:            continue;
+        1:   62-block  0
+        -:   63:        }
+    #####:   64:        if (option == "2") {
+    %%%%%:   64-block  0
+    #####:   65:            std::string name;
+    %%%%%:   65-block  0
+    %%%%%:   65-block  1
+    $$$$$:   65-block  2
+    #####:   66:            std::cout << "Name: "; std::cin >> name;
+    %%%%%:   66-block  0
+        -:   67:            //this->service.removeDog(name);
+        -:   68:        }
+    #####:   69:        if(option == "3"){
+    %%%%%:   69-block  0
+    #####:   70:            std::string name, photograph;
+    %%%%%:   70-block  0
+    %%%%%:   70-block  1
+    $$$$$:   70-block  2
+    $$$$$:   70-block  3
+        -:   71:            int age;
+    #####:   72:            std::cout << "Name: "; std::cin >> name;
+    %%%%%:   72-block  0
+    #####:   73:            std::cout << "Age: "; std::cin >> age;
+    %%%%%:   73-block  0
+    %%%%%:   73-block  1
+    #####:   74:            std::cout << "Photograph: "; std::cin>> photograph;
+    %%%%%:   74-block  0
+    %%%%%:   74-block  1
+        -:   75:            //this->service.removeDog(name);
+        -:   76:        }
+    #####:   77:        if(option=="4"){
+    %%%%%:   77-block  0
+        -:   78:
+        -:   79:        }
+        -:   80:        else
+    #####:   81:            std::cout << "\nWrong command!\n";
+    %%%%%:   81-block  0
+        -:   82:    }
+        1:   83:}
+        1:   83-block  0
+        -:   84:
+    #####:   85:void Console::runUser() {
+        -:   86:
+    #####:   87:}
+        -:   88:
+        1:   89:void Console::addDogUi() {
+        -:   90:    // input validation
+        2:   91:    std::string breed, name, photograph;
+        1:   91-block  0
+        1:   91-block  1
+    $$$$$:   91-block  2
+    $$$$$:   91-block  3
+    $$$$$:   91-block  4
+        -:   92:    int age;
+        1:   93:    std::cout << "Breed: "; std::cin >> breed;
+        1:   93-block  0
+        1:   94:    std::cout << "Name: "; std::cin >> name;
+        1:   94-block  0
+        1:   94-block  1
+        -:   95:
+        1:   96:    std::cout << "Age: ";
+        1:   96-block  0
+        4:   97:    while(!(std::cin >> age)){
+        4:   97-block  0
+        4:   97-block  1
+        4:   97-block  2
+        3:   97-block  3
+        3:   98:        std::cout << "Invalid numerical value (age)!\n";
+        3:   98-block  0
+        3:   99:        std::cin.clear();
+        3:   99-block  0
+        3:  100:        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        3:  100-block  0
+        3:  101:        std::cout << "Age: ";
+        3:  101-block  0
+        -:  102:    }
+        -:  103:
+        1:  104:    std::cout << "Photograph: "; std::cin>> photograph;
+        1:  104-block  0
+        1:  104-block  1
+        -:  105:
+        -:  106:    try {
+        1:  107:        this->_service.addDog(name, breed, age, photograph);
+        1:  107-block  0
+        1:  108:        std::cout << "Dog added!\n";
+        1:  108-block  0
+    =====:  109:    }catch(Exceptions &se){
+    $$$$$:  109-block  0
+    $$$$$:  109-block  1
+    $$$$$:  109-block  2
+    =====:  110:        std::cout << se.get_msg();
+    $$$$$:  110-block  0
+        -:  111:    }
+        1:  112:}

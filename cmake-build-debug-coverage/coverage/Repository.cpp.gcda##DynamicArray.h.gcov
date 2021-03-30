@@ -1,0 +1,269 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/29/2021.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef A45_913ALICEHINCU_DYNAMICARRAY_H
+        -:    6:#define A45_913ALICEHINCU_DYNAMICARRAY_H
+        -:    7:
+        -:    8:
+        -:    9:#include <string>
+        -:   10:#include <exception>
+        -:   11:template <class TypeOfElement>
+        -:   12:class DynamicArray {
+        -:   13:
+        -:   14:private:
+        -:   15:    int capacity{};
+        -:   16:    int size{};
+        -:   17:    int currentElementIndex{}; // for iterating
+        -:   18:
+        -:   19:    TypeOfElement *elements;
+        -:   20:    void resizeArray(int capacity);
+        -:   21:
+        -:   22:
+        -:   23:public:
+        -:   24:    DynamicArray();
+        -:   25:    // explicit constructor
+        -:   26:    explicit DynamicArray(int capacity = 10);
+        -:   27:
+        -:   28:    // copy constructor
+        -:   29:    DynamicArray(const DynamicArray& copyArray);
+        -:   30:
+        -:   31:    // "=" overwrite
+        -:   32:    DynamicArray& operator=(const DynamicArray& copyArray);
+        -:   33:
+        -:   34:    // add element at the end of container
+        -:   35:    void addElement(TypeOfElement newElement);
+        -:   36:
+        -:   37:    // add element to a certain position
+        -:   38:    void addElementToPosition(TypeOfElement newElement, int position);
+        -:   39:
+        -:   40:    // remove element from a certain position
+        -:   41:    void removeElementFromPosition(int position);
+        -:   42:
+        -:   43:    // get the element from the container at the given position
+        -:   44:    TypeOfElement getElement(int position);
+        -:   45:
+        -:   46:    // set the element from the container at the given position
+        -:   47:    void setElement(TypeOfElement newElement, int position);
+        -:   48:
+        -:   49:    // get size of container
+        -:   50:    [[nodiscard]] int getSize() const;
+        -:   51:
+        -:   52:    // for iterator:
+        -:   53:    TypeOfElement getCurrentElement();
+        -:   54:
+        -:   55:    // destructor
+        -:   56:    ~DynamicArray();
+        -:   57:
+        -:   58:};
+        -:   59:
+        -:   60:
+        -:   61://explicit constructor
+        -:   62:template<class TypeOfElement>
+        1:   63:DynamicArray<TypeOfElement>::DynamicArray(int capacity) {
+        1:   64:    this->capacity = capacity;
+        1:   65:    this->size = 0;
+      11*:   66:    this->elements = new TypeOfElement[this->capacity];
+        1:   66-block  0
+        1:   66-block  1
+    %%%%%:   66-block  2
+        1:   66-block  3
+       11:   66-block  4
+       10:   66-block  5
+       10:   66-block  6
+    $$$$$:   66-block  7
+    $$$$$:   66-block  8
+    $$$$$:   66-block  9
+    $$$$$:   66-block 10
+    $$$$$:   66-block 11
+    $$$$$:   66-block 12
+        1:   67:    this->currentElementIndex = 0;
+        1:   68:}
+        1:   68-block  0
+        -:   69:
+        -:   70://copy constructor
+        -:   71:template<class TypeOfElement>
+    #####:   72:DynamicArray<TypeOfElement>::DynamicArray(const DynamicArray &copyArray) {
+    #####:   73:    size = copyArray.size;
+    #####:   74:    capacity = copyArray.capacity;
+    #####:   75:    elements = new TypeOfElement[capacity];
+    %%%%%:   75-block  0
+    %%%%%:   75-block  1
+    %%%%%:   75-block  2
+    %%%%%:   75-block  3
+    %%%%%:   75-block  4
+    %%%%%:   75-block  5
+    %%%%%:   75-block  6
+    $$$$$:   75-block  7
+    $$$$$:   75-block  8
+    $$$$$:   75-block  9
+    $$$$$:   75-block 10
+    $$$$$:   75-block 11
+    $$$$$:   75-block 12
+    #####:   76:    for (int i = 0; i < size; ++i) {
+    %%%%%:   76-block  0
+    %%%%%:   76-block  1
+    #####:   77:        elements[i] = copyArray.elements[i];
+    %%%%%:   77-block  0
+        -:   78:    }
+    #####:   79:    currentElementIndex = copyArray.currentElementIndex;
+    #####:   80:}
+    %%%%%:   80-block  0
+        -:   81:
+        -:   82:// =
+        -:   83:template<class TypeOfElement>
+        -:   84:DynamicArray<TypeOfElement>& DynamicArray<TypeOfElement>::operator=(const DynamicArray<TypeOfElement> &copyArray) {
+        -:   85:    if (this == &copyArray) {
+        -:   86:        return *this;
+        -:   87:    }
+        -:   88:    size = copyArray.size;
+        -:   89:    capacity = copyArray.capacity;
+        -:   90:
+        -:   91:    delete [] elements;
+        -:   92:    elements = new TypeOfElement[this->capacity];
+        -:   93:    for (int i = 0; i < size; ++i) {
+        -:   94:        elements[i] = copyArray.elements[i];
+        -:   95:    }
+        -:   96:    return *this;
+        -:   97:}
+        -:   98:
+        -:   99:// add element at the end
+        -:  100:template<class TypeOfElement>
+        1:  101:void DynamicArray<TypeOfElement>::addElement(TypeOfElement newElement) {
+        1:  102:    if (size == capacity) {
+        1:  102-block  0
+    #####:  103:        resizeArray(2 * capacity);
+    %%%%%:  103-block  0
+        -:  104:    }
+        1:  105:    elements[size++] = newElement;
+        1:  105-block  0
+        1:  106:}
+        -:  107:
+        -:  108:
+        -:  109:// add element to a position
+        -:  110:template<class TypeOfElement>
+        -:  111:void DynamicArray<TypeOfElement>::addElementToPosition(TypeOfElement newElement, int position) {
+        -:  112:    if (position > size or position < 0) {
+        -:  113:        throw std::exception();
+        -:  114:    }
+        -:  115:    if (size == capacity) {
+        -:  116:        resizeArray(2 * capacity);
+        -:  117:    }
+        -:  118:
+        -:  119:    for (int i = size; i > position; ++i) {
+        -:  120:        elements[i] = elements[i - 1];
+        -:  121:    }
+        -:  122:    size++;
+        -:  123:    elements[position] = newElement;
+        -:  124:}
+        -:  125:
+        -:  126:
+        -:  127:template<class TypeOfElement>
+        -:  128:void DynamicArray<TypeOfElement>::removeElementFromPosition(int position) {
+        -:  129:    if (position >= size or position < 0) {
+        -:  130:        throw std::exception();
+        -:  131:    }
+        -:  132:    if (size == capacity / 4) {
+        -:  133:        resizeArray(capacity / 2);
+        -:  134:    }
+        -:  135:    size--;
+        -:  136:    for (int i = position; i < size; ++i) {
+        -:  137:        elements[i] = elements[i + 1];
+        -:  138:    }
+        -:  139:}
+        -:  140:
+        -:  141:
+        -:  142:template <class TypeOfElement>
+    #####:  143:TypeOfElement DynamicArray<TypeOfElement>::getCurrentElement()  {
+    #####:  144:    if (currentElementIndex == size) {
+    %%%%%:  144-block  0
+    #####:  145:        currentElementIndex = 0;
+    %%%%%:  145-block  0
+        -:  146:    }
+    #####:  147:    return elements[currentElementIndex++];
+    %%%%%:  147-block  0
+        -:  148:}
+        -:  149:
+        -:  150:
+        -:  151:
+        -:  152:template<class TypeOfElement>
+        1:  153:int DynamicArray<TypeOfElement>::getSize() const {
+        1:  154:    return size;
+        1:  154-block  0
+        -:  155:}
+        -:  156:
+        -:  157:
+        -:  158:template<class TypeOfElement>
+        -:  159:void DynamicArray<TypeOfElement>::setElement(TypeOfElement newElement, int position) {
+        -:  160:    if (position >= size or position < 0) {
+        -:  161:        throw std::exception();
+        -:  162:    }
+        -:  163:    elements[position] = newElement;
+        -:  164:}
+        -:  165:
+        -:  166:template<class TypeOfElement>
+        -:  167:TypeOfElement DynamicArray<TypeOfElement>::getElement(int position) {
+        -:  168:    if (position >= size or position < 0) {
+        -:  169:        throw std::exception();
+        -:  170:    }
+        -:  171:    return elements[position];
+        -:  172:}
+        -:  173:
+        -:  174:
+        -:  175:template<class TypeOfElement>
+    #####:  176:void DynamicArray<TypeOfElement>::resizeArray(int newCapacity) {
+    #####:  177:    capacity = newCapacity;
+    #####:  178:    auto * auxiliaryArray = new TypeOfElement[capacity];
+    %%%%%:  178-block  0
+    %%%%%:  178-block  1
+    %%%%%:  178-block  2
+    %%%%%:  178-block  3
+    %%%%%:  178-block  4
+    %%%%%:  178-block  5
+    %%%%%:  178-block  6
+    $$$$$:  178-block  7
+    $$$$$:  178-block  8
+    $$$$$:  178-block  9
+    $$$$$:  178-block 10
+    $$$$$:  178-block 11
+    $$$$$:  178-block 12
+    #####:  179:    for (int i = 0; i < size; ++i) {
+    %%%%%:  179-block  0
+    %%%%%:  179-block  1
+    #####:  180:        auxiliaryArray[i] = elements[i];
+    %%%%%:  180-block  0
+        -:  181:    }
+    #####:  182:    delete [] elements;
+    %%%%%:  182-block  0
+    %%%%%:  182-block  1
+    %%%%%:  182-block  2
+    %%%%%:  182-block  3
+    %%%%%:  182-block  4
+    #####:  183:    elements = auxiliaryArray;
+    #####:  184:}
+    %%%%%:  184-block  0
+        -:  185:
+        -:  186:
+        -:  187:template<class TypeOfElement>
+        1:  188:DynamicArray<TypeOfElement>::~DynamicArray() {
+       11:  189:    delete [] this->elements;
+        1:  189-block  0
+        1:  189-block  1
+       11:  189-block  2
+       10:  189-block  3
+        1:  189-block  4
+        1:  190:    this->size = 0;
+        1:  191:}
+        -:  192:
+        -:  193:template<class TypeOfElement>
+        -:  194:DynamicArray<TypeOfElement>::DynamicArray(): capacity{10}, size{0}, currentElementIndex{0} {
+        -:  195:
+        -:  196:}
+        -:  197:
+        -:  198:
+        -:  199:
+        -:  200:#endif //A45_913ALICEHINCU_DYNAMICARRAY_H

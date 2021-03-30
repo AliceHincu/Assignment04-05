@@ -1,0 +1,37 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.cpp
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/30/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "Repository.h"
+        -:    6:
+        1:    7:Repository::Repository() {}
+        1:    7-block  0
+        -:    8:
+        1:    9:void Repository::addDogRepo(const Dog& dog) {
+        1:   10:    this->_elems.addElement(dog);
+        1:   10-block  0
+        1:   10-block  1
+    $$$$$:   10-block  2
+        1:   11:}
+        -:   12:
+        1:   13:Repository::~Repository() {}
+        1:   13-block  0
+        -:   14:
+    #####:   15:DynamicArray<Dog> Repository::getDogs() {
+    #####:   16:    return this->_elems;
+    %%%%%:   16-block  0
+        -:   17:}
+        -:   18:
+    #####:   19:Dog Repository::getCurrentElement() {
+    #####:   20:    return this->_elems.getCurrentElement();
+    %%%%%:   20-block  0
+        -:   21:}
+        -:   22:
+        1:   23:int Repository::getNumberOfDogs() {
+        1:   24:    return this->_elems.getSize();
+        1:   24-block  0
+        -:   25:}

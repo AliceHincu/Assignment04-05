@@ -1,0 +1,153 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.cpp
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/30/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include <iostream>
+        -:    6:#include <cassert>
+        -:    7:#include "Tests.h"
+        -:    8:#include "Dog.h"
+        -:    9:
+        -:   10:
+        1:   11:void Tests::runAllTests() {
+        1:   12:    std::cout << "Starting tests...\n";
+        1:   12-block  0
+        1:   13:    this->run_domain_tests();
+        1:   14:    this->run_validation_tests();
+        1:   15:    std::cout << "Finishing tests...\n";
+        1:   16:}
+        -:   17:
+        1:   18:void Tests::run_domain_tests() {
+        1:   19:    std::cout << "Starting domain tests...\n";
+        1:   19-block  0
+        -:   20:    // implicit constructor
+        2:   21:    Dog d;
+        1:   21-block  0
+    $$$$$:   21-block  1
+       1*:   22:    assert(d.get_name()=="");
+        1:   22-block  0
+        1:   22-block  1
+    %%%%%:   22-block  2
+       1*:   23:    assert(d.get_age()==-1);
+        1:   23-block  0
+        1:   23-block  1
+    %%%%%:   23-block  2
+       1*:   24:    assert(d.get_breed()=="");
+        1:   24-block  0
+        1:   24-block  1
+    %%%%%:   24-block  2
+       1*:   25:    assert(d.get_photograph()=="");
+        1:   25-block  0
+        1:   25-block  1
+    %%%%%:   25-block  2
+        -:   26:
+        -:   27:    // explicit constructor
+        3:   28:    Dog d1("Hera", "Yorkshire Terrier", 6, "link");
+        1:   28-block  0
+        1:   28-block  1
+        1:   28-block  2
+        1:   28-block  3
+    $$$$$:   28-block  4
+    $$$$$:   28-block  5
+    $$$$$:   28-block  6
+    $$$$$:   28-block  7
+    $$$$$:   28-block  8
+    $$$$$:   28-block  9
+    $$$$$:   28-block 10
+       1*:   29:    assert(d1.get_name()=="Hera");
+        1:   29-block  0
+    %%%%%:   29-block  1
+       1*:   30:    assert(d1.get_breed()=="Yorkshire Terrier");
+        1:   30-block  0
+        1:   30-block  1
+    %%%%%:   30-block  2
+       1*:   31:    assert(d1.get_age()==6);
+        1:   31-block  0
+        1:   31-block  1
+    %%%%%:   31-block  2
+       1*:   32:    assert(d1.get_photograph()=="link");
+        1:   32-block  0
+        1:   32-block  1
+    %%%%%:   32-block  2
+        -:   33:
+        -:   34:    // copy constructor;
+        2:   35:    Dog d2{d1};
+        1:   35-block  0
+    $$$$$:   35-block  1
+        1:   36:    d2.set_age(8);
+        1:   36-block  0
+        1:   37:    d2.set_photograph("link2");
+        1:   37-block  0
+        1:   37-block  1
+        1:   37-block  2
+    $$$$$:   37-block  3
+    $$$$$:   37-block  4
+    $$$$$:   37-block  5
+    $$$$$:   37-block  6
+       1*:   38:    assert(d2.get_age() == 8);
+        1:   38-block  0
+    %%%%%:   38-block  1
+       1*:   39:    assert(d2.get_photograph() == "link2");
+        1:   39-block  0
+        1:   39-block  1
+    %%%%%:   39-block  2
+        -:   40:
+        -:   41:    // check if d3 remains the same
+        2:   42:    Dog d3 = d1;
+        1:   42-block  0
+    $$$$$:   42-block  1
+        1:   43:    d1.set_age(3);
+        1:   43-block  0
+       1*:   44:    assert(d3.get_age() == 6);
+        1:   44-block  0
+        1:   44-block  1
+    %%%%%:   44-block  2
+        -:   45:
+        -:   46:    // check = operator
+        2:   47:    Dog d4;
+        1:   47-block  0
+        1:   47-block  1
+    $$$$$:   47-block  2
+        1:   48:    d4 = d3;
+        1:   48-block  0
+       1*:   49:    assert(d4.get_age() == 6);
+        1:   49-block  0
+        1:   49-block  1
+    %%%%%:   49-block  2
+        -:   50:
+        -:   51:    // check == operator
+       1*:   52:    assert(d4 == d3);
+        1:   52-block  0
+        1:   52-block  1
+    %%%%%:   52-block  2
+        -:   53:
+        -:   54:    /*
+        -:   55:    Dog d5;
+        -:   56:    std::cin >> d5;
+        -:   57:    std::cout << d5;
+        -:   58:    */
+        -:   59:
+        1:   60:    std::cout << "Finishing domain tests...\n";
+        1:   60-block  0
+        1:   61:}
+        -:   62:
+        1:   63:void Tests::run_validation_tests() {
+        -:   64:    /*
+        -:   65:    std::cout << "Starting validation tests...\n";
+        -:   66:    2, c{23, "Jaguar", 7869.5};
+        -:   67:    CarValidator::validate(c);
+        -:   68:
+        -:   69:    Car c1{23, "", -7869.5};
+        -:   70:    try {
+        -:   71:        CarValidator::validate(c1);
+        -:   72:        assert(false);
+        -:   73:    }catch(const ValidationException& ve){
+        -:   74:        assert(ve.get_msg()=="Invalid name!\nInvalid price!\n");
+        -:   75:
+        -:   76:    }
+        -:   77:    std::cout << "Finishing validation tests...\n";
+        -:   78:    */
+        1:   79:}

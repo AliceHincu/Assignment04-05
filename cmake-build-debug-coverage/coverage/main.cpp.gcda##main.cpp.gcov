@@ -1,0 +1,25 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/main.cpp
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/main.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include "Console.h"
+        -:    3:#include "Tests.h"
+        -:    4:
+        1:    5:int main() {
+        -:    6:    Tests t;
+        1:    7:    t.runAllTests();
+        1:    7-block  0
+        -:    8:
+        1:    9:    Repository repository;
+        1:    9-block  0
+    $$$$$:    9-block  1
+        1:   10:    Service service(repository);
+        1:   10-block  0
+        1:   11:    Console console(service);
+        1:   11-block  0
+        1:   12:    console.run();
+        1:   12-block  0
+        1:   13:    return 0;
+        1:   13-block  0
+        -:   14:}

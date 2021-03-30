@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.cpp
+Console.h
+/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.h
+
+/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.h
+
+/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray2.cpp
+DynamicArray2.h
+/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray2.h
+
+/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray2.h
+string
+-
+exception
+-
+

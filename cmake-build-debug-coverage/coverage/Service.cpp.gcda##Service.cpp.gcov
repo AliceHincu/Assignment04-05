@@ -1,0 +1,49 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.cpp
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Service.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Service.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/30/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "Service.h"
+        -:    6:#include "Dog.h"
+        -:    7:#include "Exceptions.h"
+        -:    8:
+        1:    9:Service::Service(Repository& repo): _repo{repo} {}
+        -:   10:
+        1:   11:void Service::addDog(const std::string &name, const std::string &breed, int age, const std::string &photograph) {
+        1:   12:    Dog dog{name, breed, age, photograph};
+        1:   12-block  0
+    $$$$$:   12-block  1
+        -:   13:
+        -:   14:    // validate
+        1:   15:    int numberOfDogs = this->_repo.getNumberOfDogs();
+        1:   15-block  0
+       1*:   16:    for (int i=0; i<numberOfDogs; i++) {
+        1:   16-block  0
+        1:   16-block  1
+    %%%%%:   16-block  2
+    #####:   17:        Dog existingDog = this->_repo.getCurrentElement();
+    %%%%%:   17-block  0
+    $$$$$:   17-block  1
+    #####:   18:        if (dog == existingDog) {
+    %%%%%:   18-block  0
+    %%%%%:   18-block  1
+    #####:   19:            throw Exceptions("Dog already exists!\n\n");
+    %%%%%:   19-block  0
+    %%%%%:   19-block  1
+    %%%%%:   19-block  2
+    $$$$$:   19-block  3
+    $$$$$:   19-block  4
+    $$$$$:   19-block  5
+    $$$$$:   19-block  6
+    $$$$$:   19-block  7
+        -:   20:            return;
+        -:   21:        }
+        -:   22:    }
+        -:   23:
+        1:   24:    this->_repo.addDogRepo(dog);
+        1:   24-block  0
+        -:   25:
+        -:   26:}
