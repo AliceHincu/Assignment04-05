@@ -13,8 +13,26 @@ class Service {
 private:
     Repository& _repo;
 public:
-    Service(Repository& repo);
+    // constructor
+    explicit Service(Repository& repo);
+
+    // ----------- ADMIN MODE -----------
+    // add a dog
     void addDog(const std::string&, const std::string&, int, const std::string&);
+
+    // adopt a dog
+    void removeDog(const std::string&);
+
+    // update a dog
+    void updateDog(const std::string&, const std::string&, int, const std::string&);
+
+    // return the array of dogs
+    DynamicArray<Dog> getDogs();
+    // ----------- USER MODE -----------
+
+    // destructor
+    ~Service();
+
 };
 
 

@@ -6154,11 +6154,16 @@
         -: 6146:  template<typename _CharT>
         -: 6147:    inline
         -: 6148:    typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value, bool>::__type
-        -: 6149:    operator==(const basic_string<_CharT>& __lhs,
+    #####: 6149:    operator==(const basic_string<_CharT>& __lhs,
         -: 6150:	       const basic_string<_CharT>& __rhs) _GLIBCXX_NOEXCEPT
-        -: 6151:    { return (__lhs.size() == __rhs.size()
-        -: 6152:	      && !std::char_traits<_CharT>::compare(__lhs.data(), __rhs.data(),
-        -: 6153:						    __lhs.size())); }
+    #####: 6151:    { return (__lhs.size() == __rhs.size()
+    %%%%%: 6151-block  0
+    #####: 6152:	      && !std::char_traits<_CharT>::compare(__lhs.data(), __rhs.data(),
+    %%%%%: 6152-block  0
+    %%%%%: 6152-block  1
+    %%%%%: 6152-block  2
+    #####: 6153:						    __lhs.size())); }
+    %%%%%: 6153-block  0
         -: 6154:
         -: 6155:  /**
         -: 6156:   *  @brief  Test equivalence of C string and string.

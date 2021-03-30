@@ -208,7 +208,17 @@
         -:  204:    typename iterator_traits<_Iter>::iterator_category
     #####:  205:    __iterator_category(const _Iter&)
     #####:  206:    { return typename iterator_traits<_Iter>::iterator_category(); }
+------------------
+_ZSt19__iterator_categoryIPcENSt15iterator_traitsIT_E17iterator_categoryERKS2_:
+    #####:  205:    __iterator_category(const _Iter&)
+    #####:  206:    { return typename iterator_traits<_Iter>::iterator_category(); }
     %%%%%:  206-block  0
+------------------
+_ZSt19__iterator_categoryIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_:
+    #####:  205:    __iterator_category(const _Iter&)
+    #####:  206:    { return typename iterator_traits<_Iter>::iterator_category(); }
+    %%%%%:  206-block  0
+------------------
         -:  207:
         -:  208:  //@}
         -:  209:

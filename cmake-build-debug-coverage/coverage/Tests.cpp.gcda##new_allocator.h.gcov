@@ -84,7 +84,7 @@
     #####:   80:      new_allocator() _GLIBCXX_USE_NOEXCEPT { }
         -:   81:
         -:   82:      _GLIBCXX20_CONSTEXPR
-        -:   83:      new_allocator(const new_allocator&) _GLIBCXX_USE_NOEXCEPT { }
+    #####:   83:      new_allocator(const new_allocator&) _GLIBCXX_USE_NOEXCEPT { }
         -:   84:
         -:   85:      template<typename _Tp1>
         -:   86:	_GLIBCXX20_CONSTEXPR

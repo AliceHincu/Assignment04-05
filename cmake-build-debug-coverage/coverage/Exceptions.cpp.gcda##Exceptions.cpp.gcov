@@ -10,10 +10,10 @@
         -:    6:
         -:    7:#include <utility>
         -:    8:
-    #####:    9:Exceptions::Exceptions(std::string msg): std::exception(), _msg{std::move(msg)} {}
-    %%%%%:    9-block  0
+        3:    9:Exceptions::Exceptions(std::string msg): std::exception(), _msg{std::move(msg)} {}
+        3:    9-block  0
         -:   10:
-    #####:   11:const std::string &Exceptions::get_msg() const {
-    #####:   12:    return this->_msg;
-    %%%%%:   12-block  0
+        3:   11:const std::string &Exceptions::get_msg() const {
+        3:   12:    return this->_msg;
+        3:   12-block  0
         -:   13:}

@@ -10,9 +10,15 @@ void Repository::addDogRepo(const Dog& dog) {
     this->_elems.addElement(dog);
 }
 
-Repository::~Repository() {}
+void Repository::updateDogRepo(const Dog &dog, int position) {
+    this->_elems.setElement(dog, position);
+}
 
-DynamicArray<Dog> Repository::getDogs() {
+void Repository::removeDogRepo(int position) {
+    this->_elems.removeElementFromPosition(position);
+}
+
+DynamicArray<Dog> Repository::getDogsRepo() {
     return this->_elems;
 }
 
@@ -23,3 +29,6 @@ Dog Repository::getCurrentElement() {
 int Repository::getNumberOfDogs() {
     return this->_elems.getSize();
 }
+
+Repository::~Repository() {}
+

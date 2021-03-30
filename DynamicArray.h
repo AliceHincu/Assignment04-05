@@ -52,6 +52,9 @@ public:
     // for iterator:
     TypeOfElement getCurrentElement();
 
+    // change the current element for iterator
+    void setCurrentElement(int);
+
     // destructor
     ~DynamicArray();
 
@@ -195,6 +198,10 @@ DynamicArray<TypeOfElement>::DynamicArray(): capacity{10}, size{0}, currentEleme
 
 }
 
+template<class TypeOfElement>
+void DynamicArray<TypeOfElement>::setCurrentElement(int nr) {
+    currentElementIndex = nr;
+}
 
 
 #endif //A45_913ALICEHINCU_DYNAMICARRAY_H

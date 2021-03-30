@@ -1,0 +1,43 @@
+        -:    0:Source:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.h
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Service.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Service.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by Sakura on 3/30/2021.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef A45_913ALICEHINCU_SERVICE_H
+        -:    6:#define A45_913ALICEHINCU_SERVICE_H
+        -:    7:
+        -:    8:
+        -:    9:#include <string>
+        -:   10:#include "Repository.h"
+        -:   11:
+        1:   12:class Service {
+        -:   13:private:
+        -:   14:    Repository& _repo;
+        -:   15:public:
+        -:   16:    // constructor
+        -:   17:    explicit Service(Repository& repo);
+        -:   18:
+        -:   19:    // ----------- ADMIN MODE -----------
+        -:   20:    // add a dog
+        -:   21:    void addDog(const std::string&, const std::string&, int, const std::string&);
+        -:   22:
+        -:   23:    // adopt a dog
+        -:   24:    void removeDog(const std::string&);
+        -:   25:
+        -:   26:    // update a dog
+        -:   27:    void updateDog(const std::string&, const std::string&, int, const std::string&);
+        -:   28:
+        -:   29:    // return the array of dogs
+        -:   30:    DynamicArray<Dog> getDogs();
+        -:   31:    // ----------- USER MODE -----------
+        -:   32:
+        -:   33:    // destructor
+        -:   34:    ~Service();
+        -:   35:
+        -:   36:};
+        -:   37:
+        -:   38:
+        -:   39:#endif //A45_913ALICEHINCU_SERVICE_H

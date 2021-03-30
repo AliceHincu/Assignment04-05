@@ -13,13 +13,22 @@ class Repository {
 private:
     DynamicArray<Dog> _elems{10};
 public:
+    // constructor
     Repository();
 
+    // ----------- ADMIN MODE -----------
     void addDogRepo(const Dog&);
-    DynamicArray<Dog> getDogs();
+    void removeDogRepo(int);
+    void updateDogRepo(const Dog&, int);
+    DynamicArray<Dog> getDogsRepo();
+
+    // ----------- USER MODE -----------
+
+    // ----------- FROM DYNAMIC ARRAY-----------
     Dog getCurrentElement();
     int getNumberOfDogs();
 
+    // destructor
     ~Repository();
     };
 

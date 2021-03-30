@@ -316,17 +316,20 @@
         -:  312:      }
         -:  313:
         -:  314:      static _GLIBCXX17_CONSTEXPR int
-        -:  315:      compare(const char_type* __s1, const char_type* __s2, size_t __n)
+    #####:  315:      compare(const char_type* __s1, const char_type* __s2, size_t __n)
         -:  316:      {
-        -:  317:	if (__n == 0)
-        -:  318:	  return 0;
+    #####:  317:	if (__n == 0)
+    %%%%%:  317-block  0
+    #####:  318:	  return 0;
+    %%%%%:  318-block  0
         -:  319:#if __cplusplus >= 201703L
         -:  320:	if (__builtin_constant_p(__n)
         -:  321:	    && __constant_char_array_p(__s1, __n)
         -:  322:	    && __constant_char_array_p(__s2, __n))
         -:  323:	  return __gnu_cxx::char_traits<char_type>::compare(__s1, __s2, __n);
         -:  324:#endif
-        -:  325:	return __builtin_memcmp(__s1, __s2, __n);
+    #####:  325:	return __builtin_memcmp(__s1, __s2, __n);
+    %%%%%:  325-block  0
         -:  326:      }
         -:  327:
         -:  328:      static _GLIBCXX17_CONSTEXPR size_t

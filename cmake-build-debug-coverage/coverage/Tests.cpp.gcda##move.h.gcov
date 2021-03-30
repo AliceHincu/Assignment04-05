@@ -1,6 +1,6 @@
         -:    0:Source:/usr/include/c++/9/bits/move.h
-        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.gcno
-        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.gcda
+        -:    0:Graph:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.gcno
+        -:    0:Data:/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug-coverage/CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.gcda
         -:    0:Runs:1
         -:    1:// Move, forward and identity for C++11 + swap -*- C++ -*-
         -:    2:
@@ -100,19 +100,9 @@
         -:   96:  */
         -:   97:  template<typename _Tp>
         -:   98:    constexpr typename std::remove_reference<_Tp>::type&&
-       3*:   99:    move(_Tp&& __t) noexcept
-       3*:  100:    { return static_cast<typename std::remove_reference<_Tp>::type&&>(__t); }
-------------------
-_ZSt4moveIRSaIcEEONSt16remove_referenceIT_E4typeEOS3_:
     #####:   99:    move(_Tp&& __t) noexcept
     #####:  100:    { return static_cast<typename std::remove_reference<_Tp>::type&&>(__t); }
     %%%%%:  100-block  0
-------------------
-_ZSt4moveIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEONSt16remove_referenceIT_E4typeEOS8_:
-        3:   99:    move(_Tp&& __t) noexcept
-        3:  100:    { return static_cast<typename std::remove_reference<_Tp>::type&&>(__t); }
-        3:  100-block  0
-------------------
         -:  101:
         -:  102:
         -:  103:  template<typename _Tp>

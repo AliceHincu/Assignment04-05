@@ -155,7 +155,17 @@
         -:  151:    inline bool
     #####:  152:    __is_null_pointer(_Type* __ptr)
     #####:  153:    { return __ptr == 0; }
+------------------
+_ZN9__gnu_cxx17__is_null_pointerIcEEbPT_:
+    #####:  152:    __is_null_pointer(_Type* __ptr)
+    #####:  153:    { return __ptr == 0; }
     %%%%%:  153-block  0
+------------------
+_ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_:
+    #####:  152:    __is_null_pointer(_Type* __ptr)
+    #####:  153:    { return __ptr == 0; }
+    %%%%%:  153-block  0
+------------------
         -:  154:
         -:  155:  template<typename _Type>
         -:  156:    inline bool

@@ -196,33 +196,6 @@ Dog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.s
 .PHONY : Dog.cpp.s
 
-DynamicArray.o: DynamicArray.cpp.o
-
-.PHONY : DynamicArray.o
-
-# target to build an object file
-DynamicArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o
-.PHONY : DynamicArray.cpp.o
-
-DynamicArray.i: DynamicArray.cpp.i
-
-.PHONY : DynamicArray.i
-
-# target to preprocess a source file
-DynamicArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.i
-.PHONY : DynamicArray.cpp.i
-
-DynamicArray.s: DynamicArray.cpp.s
-
-.PHONY : DynamicArray.s
-
-# target to generate assembly for a file
-DynamicArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.s
-.PHONY : DynamicArray.cpp.s
-
 Exceptions.o: Exceptions.cpp.o
 
 .PHONY : Exceptions.o
@@ -373,9 +346,6 @@ help:
 	@echo "... Dog.o"
 	@echo "... Dog.i"
 	@echo "... Dog.s"
-	@echo "... DynamicArray.o"
-	@echo "... DynamicArray.i"
-	@echo "... DynamicArray.s"
 	@echo "... Exceptions.o"
 	@echo "... Exceptions.i"
 	@echo "... Exceptions.s"

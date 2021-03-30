@@ -11,15 +11,12 @@
         1:    7:    t.runAllTests();
         1:    7-block  0
         -:    8:
-        1:    9:    Repository repository;
-        1:    9-block  0
-    $$$$$:    9-block  1
-        1:   10:    Service service(repository);
-        1:   10-block  0
-        1:   11:    Console console(service);
-        1:   11-block  0
-        1:   12:    console.run();
-        1:   12-block  0
-        1:   13:    return 0;
-        1:   13-block  0
-        -:   14:}
+        -:    9:    /*
+        -:   10:    Repository repository;
+        -:   11:    Service service(repository);
+        -:   12:    Console console(service);
+        -:   13:    console.run();
+        -:   14:     */
+        1:   15:    return 0;
+        1:   15-block  0
+        -:   16:}

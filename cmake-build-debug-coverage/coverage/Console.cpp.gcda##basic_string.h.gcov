@@ -6180,10 +6180,10 @@
         -: 6172:   */
         -: 6173:  template<typename _CharT, typename _Traits, typename _Alloc>
         -: 6174:    inline bool
-       11: 6175:    operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+       12: 6175:    operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
         -: 6176:	       const _CharT* __rhs)
-       11: 6177:    { return __lhs.compare(__rhs) == 0; }
-       11: 6177-block  0
+       12: 6177:    { return __lhs.compare(__rhs) == 0; }
+       12: 6177-block  0
         -: 6178:
         -: 6179:  // operator !=
         -: 6180:  /**

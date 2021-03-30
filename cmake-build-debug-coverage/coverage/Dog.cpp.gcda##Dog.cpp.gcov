@@ -8,11 +8,11 @@
         -:    4:
         -:    5:#include "Dog.h"
         -:    6:
-       12:    7:Dog::Dog(): _name{""}, _breed{""}, _age{-1}, _photograph{""} {}
-       12:    7-block  0
-       12:    7-block  1
-       12:    7-block  2
-       12:    7-block  3
+       52:    7:Dog::Dog(): _name{""}, _breed{""}, _age{-1}, _photograph{""} {}
+       52:    7-block  0
+       52:    7-block  1
+       52:    7-block  2
+       52:    7-block  3
     $$$$$:    7-block  4
     $$$$$:    7-block  5
     $$$$$:    7-block  6
@@ -23,41 +23,41 @@
     $$$$$:    7-block 11
         -:    8:
         -:    9:
-        2:   10:Dog::Dog(const std::string &name, const std::string &breed, int age, const std::string &photograph):
-        2:   11:_breed{breed}, _name{name}, _age{age}, _photograph{photograph}{}
-        2:   11-block  0
-        2:   11-block  1
-        2:   11-block  2
+        5:   10:Dog::Dog(const std::string &name, const std::string &breed, int age, const std::string &photograph):
+        5:   11:_breed{breed}, _name{name}, _age{age}, _photograph{photograph}{}
+        5:   11-block  0
+        5:   11-block  1
+        5:   11-block  2
     $$$$$:   11-block  3
     $$$$$:   11-block  4
         -:   12:
         -:   13:
-        3:   14:Dog::Dog(const Dog &d): _breed{d._breed}, _name{d._name}, _age{d._age}, _photograph{d._photograph} {}
-        3:   14-block  0
-        3:   14-block  1
-        3:   14-block  2
+       13:   14:Dog::Dog(const Dog &d): _breed{d._breed}, _name{d._name}, _age{d._age}, _photograph{d._photograph} {}
+       13:   14-block  0
+       13:   14-block  1
+       13:   14-block  2
     $$$$$:   14-block  3
     $$$$$:   14-block  4
         -:   15:
-        2:   16:Dog &Dog::operator=(const Dog &other) {
-        2:   17:    this->_name = other._name;
-        2:   17-block  0
-        2:   18:    this->_breed = other._breed;
-        2:   19:    this->_age = other._age;
-        2:   20:    this->_photograph = other._photograph;
-        2:   21:    return *this;
+        7:   16:Dog &Dog::operator=(const Dog &other) {
+        7:   17:    this->_name = other._name;
+        7:   17-block  0
+        7:   18:    this->_breed = other._breed;
+        7:   19:    this->_age = other._age;
+        7:   20:    this->_photograph = other._photograph;
+        7:   21:    return *this;
         -:   22:}
         -:   23:
-        1:   24:bool Dog::operator==(const Dog &other) const {
-        1:   25:    return this->_name == other._name;
-        1:   25-block  0
+        2:   24:bool Dog::operator==(const Dog &other) const {
+        2:   25:    return this->_name == other._name;
+        2:   25-block  0
         -:   26:}
         -:   27:
     #####:   28:std::ostream &operator<<(std::ostream &os, const Dog &d) {
-    #####:   29:    os << "-------------- Doggy --------------\n";
+    #####:   29:    os << "---------- Doggy ----------\n";
     %%%%%:   29-block  0
     #####:   30:    os << "Name: " << d._name << "\nBreed: " << d._breed << "\nAge: " << d._age << "\nPhoto: " << d._photograph << "\n";
-    #####:   31:    os << "-----------------------------------\n";
+    #####:   31:    os << "---------------------------\n\n";
     #####:   32:    return os;
         -:   33:}
         -:   34:
@@ -70,24 +70,24 @@
     #####:   40:    return is;
         -:   41:}
         -:   42:
-        5:   43:int Dog::get_age() const {
-        5:   44:    return this->_age;
-        5:   44-block  0
+        6:   43:int Dog::get_age() const {
+        6:   44:    return this->_age;
+        6:   44-block  0
         -:   45:}
         -:   46:
-        2:   47:const std::string &Dog::get_name() const {
-        2:   48:    return this->_name;
-        2:   48-block  0
+        6:   47:const std::string &Dog::get_name() const {
+        6:   48:    return this->_name;
+        6:   48-block  0
         -:   49:}
         -:   50:
-        2:   51:const std::string &Dog::get_breed() const {
-        2:   52:    return this->_breed;
-        2:   52-block  0
+        3:   51:const std::string &Dog::get_breed() const {
+        3:   52:    return this->_breed;
+        3:   52-block  0
         -:   53:}
         -:   54:
-        3:   55:const std::string &Dog::get_photograph() const {
-        3:   56:    return this->_photograph;
-        3:   56-block  0
+        4:   55:const std::string &Dog::get_photograph() const {
+        4:   56:    return this->_photograph;
+        4:   56-block  0
         -:   57:}
         -:   58:
         1:   59:void Dog::set_photograph(const std::string &photo) {
@@ -99,7 +99,7 @@
         2:   64:    this->_age = age;
         2:   65:}
         -:   66:
-       17:   67:Dog::~Dog() {
-       17:   67-block  0
+       70:   67:Dog::~Dog() {
+       70:   67-block  0
         -:   68:
-       17:   69:}
+       70:   69:}

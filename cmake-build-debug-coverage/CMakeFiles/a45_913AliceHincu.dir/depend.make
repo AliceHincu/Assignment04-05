@@ -12,9 +12,6 @@ CMakeFiles/a45_913AliceHincu.dir/Console.cpp.o: ../Service.h
 CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o: ../Dog.cpp
 CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o: ../Dog.h
 
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o: ../DynamicArray.cpp
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o: ../DynamicArray.h
-
 CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o: ../Exceptions.cpp
 CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o: ../Exceptions.h
 
@@ -31,6 +28,10 @@ CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o: ../Service.cpp
 CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o: ../Service.h
 
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Dog.h
+CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../DynamicArray.h
+CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Exceptions.h
+CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Repository.h
+CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Service.h
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Tests.cpp
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Tests.h
 

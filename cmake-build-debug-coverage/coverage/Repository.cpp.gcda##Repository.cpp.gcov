@@ -11,27 +11,40 @@
         1:    7:Repository::Repository() {}
         1:    7-block  0
         -:    8:
-        1:    9:void Repository::addDogRepo(const Dog& dog) {
-        1:   10:    this->_elems.addElement(dog);
-        1:   10-block  0
-        1:   10-block  1
+        2:    9:void Repository::addDogRepo(const Dog& dog) {
+        2:   10:    this->_elems.addElement(dog);
+        2:   10-block  0
+        2:   10-block  1
     $$$$$:   10-block  2
-        1:   11:}
+        2:   11:}
         -:   12:
-        1:   13:Repository::~Repository() {}
-        1:   13-block  0
-        -:   14:
-    #####:   15:DynamicArray<Dog> Repository::getDogs() {
-    #####:   16:    return this->_elems;
-    %%%%%:   16-block  0
-        -:   17:}
-        -:   18:
-    #####:   19:Dog Repository::getCurrentElement() {
-    #####:   20:    return this->_elems.getCurrentElement();
-    %%%%%:   20-block  0
-        -:   21:}
-        -:   22:
-        1:   23:int Repository::getNumberOfDogs() {
-        1:   24:    return this->_elems.getSize();
-        1:   24-block  0
-        -:   25:}
+        1:   13:void Repository::updateDogRepo(const Dog &dog, int position) {
+        1:   14:    this->_elems.setElement(dog, position);
+        1:   14-block  0
+        1:   14-block  1
+    $$$$$:   14-block  2
+        1:   15:}
+        -:   16:
+        1:   17:void Repository::removeDogRepo(int position) {
+        1:   18:    this->_elems.removeElementFromPosition(position);
+        1:   18-block  0
+        1:   19:}
+        -:   20:
+        4:   21:DynamicArray<Dog> Repository::getDogsRepo() {
+        4:   22:    return this->_elems;
+        4:   22-block  0
+        -:   23:}
+        -:   24:
+        5:   25:Dog Repository::getCurrentElement() {
+        5:   26:    return this->_elems.getCurrentElement();
+        5:   26-block  0
+        -:   27:}
+        -:   28:
+        7:   29:int Repository::getNumberOfDogs() {
+        7:   30:    return this->_elems.getSize();
+        7:   30-block  0
+        -:   31:}
+        -:   32:
+        1:   33:Repository::~Repository() {}
+        1:   33-block  0
+        -:   34:

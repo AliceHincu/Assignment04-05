@@ -15,7 +15,7 @@ void Console::run() {
         std::cout << "Choose a mode(administrator/user): ";
         std::string mode;
         std::cin >> mode;
-        if (mode == "administrator") {
+        if (mode == "administrator" or mode == "admin") {
             this->runAdministrator();
             continue;
         }
@@ -62,23 +62,18 @@ void Console::runAdministrator() {
             continue;
         }
         if (option == "2") {
-            std::string name;
-            std::cout << "Name: "; std::cin >> name;
-            //this->service.removeDog(name);
+            this->removeDogUi();
+            continue;
         }
         if(option == "3"){
-            std::string name, photograph;
-            int age;
-            std::cout << "Name: "; std::cin >> name;
-            std::cout << "Age: "; std::cin >> age;
-            std::cout << "Photograph: "; std::cin>> photograph;
-            //this->service.removeDog(name);
+            this->updateDogUi();
+            continue;
         }
         if(option=="4"){
-
+            this->listDogsUi();
+            continue;
         }
-        else
-            std::cout << "\nWrong command!\n";
+        std::cout << "\nWrong command!\n";
     }
 }
 
@@ -110,3 +105,53 @@ void Console::addDogUi() {
         std::cout << serviceException.get_msg();
     }
 }
+
+
+void Console::removeDogUi() {
+    std::string name;
+    std::cout << "Name of the existing dog: "; std::cin >> name;
+
+    try {
+        this->_service.removeDog(name);
+        std::cout << "Yaaay it got adopted o(^_^)o!!!! \n";
+    }catch(Exceptions &serviceException){
+        std::cout << serviceException.get_msg();
+    }
+}
+
+void Console::updateDogUi() {
+    // input validation
+    std::string breed, name, photograph;
+    int age;
+    std::cout << "Name of the existing dog: "; std::cin >> name;
+    std::cout << "New Breed: "; std::cin >> breed;
+
+    std::cout << "New Age: ";
+    while(!(std::cin >> age)){
+        std::cout << "Invalid numerical value (age)!\n";
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cout << "New Age: ";
+    }
+
+    std::cout << "New Photograph: "; std::cin>> photograph;
+
+    try {
+        this->_service.updateDog(name, breed, age, photograph);
+        std::cout << "Dog updated!\n";
+    }catch(Exceptions &serviceException){
+        std::cout << serviceException.get_msg();
+    }
+}
+
+
+void Console::listDogsUi() {
+    auto dogs = this->_service.getDogs();
+    int numberOfDogs = dogs.getSize();
+    dogs.setCurrentElement(0);
+    for (int i=0; i<numberOfDogs; i++) {
+        std::cout << dogs.getCurrentElement();
+    }
+}
+
+Console::~Console() {}

@@ -26,9 +26,9 @@ bool Dog::operator==(const Dog &other) const {
 }
 
 std::ostream &operator<<(std::ostream &os, const Dog &d) {
-    os << "-------------- Doggy --------------\n";
+    os << "---------- Doggy ----------\n";
     os << "Name: " << d._name << "\nBreed: " << d._breed << "\nAge: " << d._age << "\nPhoto: " << d._photograph << "\n";
-    os << "-----------------------------------\n";
+    os << "---------------------------\n\n";
     return os;
 }
 

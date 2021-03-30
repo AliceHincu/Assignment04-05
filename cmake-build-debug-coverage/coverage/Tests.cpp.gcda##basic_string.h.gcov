@@ -249,9 +249,28 @@
         -:  245:	{
         -:  246:          typedef typename iterator_traits<_InIterator>::iterator_category _Tag;
     #####:  247:          _M_construct(__beg, __end, _Tag());
+    #####:  248:	}
+------------------
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPcEEvT_S7_St12__false_type:
+    #####:  243:        _M_construct_aux(_InIterator __beg, _InIterator __end,
+        -:  244:			 std::__false_type)
+        -:  245:	{
+        -:  246:          typedef typename iterator_traits<_InIterator>::iterator_category _Tag;
+    #####:  247:          _M_construct(__beg, __end, _Tag());
     %%%%%:  247-block  0
     #####:  248:	}
     %%%%%:  248-block  0
+------------------
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPKcEEvT_S8_St12__false_type:
+    #####:  243:        _M_construct_aux(_InIterator __beg, _InIterator __end,
+        -:  244:			 std::__false_type)
+        -:  245:	{
+        -:  246:          typedef typename iterator_traits<_InIterator>::iterator_category _Tag;
+    #####:  247:          _M_construct(__beg, __end, _Tag());
+    %%%%%:  247-block  0
+    #####:  248:	}
+    %%%%%:  248-block  0
+------------------
         -:  249:
         -:  250:      // _GLIBCXX_RESOLVE_LIB_DEFECTS
         -:  251:      // 438. Ambiguity in the "do the right thing" clause
@@ -270,9 +289,26 @@
         -:  264:	{
         -:  265:	  typedef typename std::__is_integer<_InIterator>::__type _Integral;
     #####:  266:	  _M_construct_aux(__beg, __end, _Integral());
+    #####:  267:        }
+------------------
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_:
+    #####:  263:        _M_construct(_InIterator __beg, _InIterator __end)
+        -:  264:	{
+        -:  265:	  typedef typename std::__is_integer<_InIterator>::__type _Integral;
+    #####:  266:	  _M_construct_aux(__beg, __end, _Integral());
     %%%%%:  266-block  0
     #####:  267:        }
     %%%%%:  267-block  0
+------------------
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_:
+    #####:  263:        _M_construct(_InIterator __beg, _InIterator __end)
+        -:  264:	{
+        -:  265:	  typedef typename std::__is_integer<_InIterator>::__type _Integral;
+    #####:  266:	  _M_construct_aux(__beg, __end, _Integral());
+    %%%%%:  266-block  0
+    #####:  267:        }
+    %%%%%:  267-block  0
+------------------
         -:  268:
         -:  269:      // For Input Iterators, used in istreambuf_iterators, etc.
         -:  270:      template<typename _InIterator>

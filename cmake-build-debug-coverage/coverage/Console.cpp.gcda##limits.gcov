@@ -1208,8 +1208,8 @@
         -: 1204:      min() _GLIBCXX_USE_NOEXCEPT { return -__LONG_MAX__ - 1; }
         -: 1205:
         -: 1206:      static _GLIBCXX_CONSTEXPR long
-        3: 1207:      max() _GLIBCXX_USE_NOEXCEPT { return __LONG_MAX__; }
-        3: 1207-block  0
+    #####: 1207:      max() _GLIBCXX_USE_NOEXCEPT { return __LONG_MAX__; }
+    %%%%%: 1207-block  0
         -: 1208:
         -: 1209:#if __cplusplus >= 201103L
         -: 1210:      static constexpr long
