@@ -94,9 +94,6 @@
 		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h">
 			<Option target="a45_913AliceHincu"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.cpp">
-			<Option target="a45_913AliceHincu"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h">
 			<Option target="a45_913AliceHincu"/>
 		</Unit>
@@ -106,18 +103,6 @@
 		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h">
 			<Option target="a45_913AliceHincu"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.cpp">
-			<Option target="a45_913AliceHincu"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h">
-			<Option target="a45_913AliceHincu"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.cpp">
-			<Option target="a45_913AliceHincu"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.h">
-			<Option target="a45_913AliceHincu"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.cpp">
 			<Option target="a45_913AliceHincu"/>
 		</Unit>
@@ -125,6 +110,30 @@
 			<Option target="a45_913AliceHincu"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/main.cpp">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.cpp">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.h">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.cpp">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.cpp">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.h">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.cpp">
+			<Option target="a45_913AliceHincu"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.h">
 			<Option target="a45_913AliceHincu"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/CMakeLists.txt">

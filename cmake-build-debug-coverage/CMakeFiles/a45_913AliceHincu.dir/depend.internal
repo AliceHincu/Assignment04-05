@@ -8,7 +8,7 @@ CMakeFiles/a45_913AliceHincu.dir/Console.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceAdmin.h
 CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.cpp
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
@@ -20,19 +20,25 @@ CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.cpp
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h
-CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o
+CMakeFiles/a45_913AliceHincu.dir/ServiceAdmin.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.cpp
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceAdmin.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceAdmin.h
+CMakeFiles/a45_913AliceHincu.dir/ServiceUser.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceUser.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceUser.h
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceAdmin.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.cpp
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.h
 CMakeFiles/a45_913AliceHincu.dir/main.cpp.o
@@ -40,6 +46,6 @@ CMakeFiles/a45_913AliceHincu.dir/main.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.h
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/ServiceAdmin.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/main.cpp

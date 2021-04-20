@@ -53,7 +53,8 @@ public:
     TypeOfElement getCurrentElement();
 
     // change the current element for iterator
-    void setCurrentElement(int);
+    void setCurrentElementIndex(int);
+    int getCurrentElementIndex() const;
 
     // destructor
     ~DynamicArray();
@@ -199,8 +200,13 @@ DynamicArray<TypeOfElement>::DynamicArray(): capacity{10}, size{0}, currentEleme
 }
 
 template<class TypeOfElement>
-void DynamicArray<TypeOfElement>::setCurrentElement(int nr) {
-    currentElementIndex = nr;
+void DynamicArray<TypeOfElement>::setCurrentElementIndex(int nr) {
+    this->currentElementIndex = nr;
+}
+
+template<class TypeOfElement>
+int DynamicArray<TypeOfElement>::getCurrentElementIndex() const{
+    return this->currentElementIndex;
 }
 
 

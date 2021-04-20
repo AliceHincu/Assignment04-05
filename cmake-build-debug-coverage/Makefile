@@ -223,60 +223,6 @@ Exceptions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.s
 .PHONY : Exceptions.cpp.s
 
-Repository.o: Repository.cpp.o
-
-.PHONY : Repository.o
-
-# target to build an object file
-Repository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o
-.PHONY : Repository.cpp.o
-
-Repository.i: Repository.cpp.i
-
-.PHONY : Repository.i
-
-# target to preprocess a source file
-Repository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.i
-.PHONY : Repository.cpp.i
-
-Repository.s: Repository.cpp.s
-
-.PHONY : Repository.s
-
-# target to generate assembly for a file
-Repository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.s
-.PHONY : Repository.cpp.s
-
-Service.o: Service.cpp.o
-
-.PHONY : Service.o
-
-# target to build an object file
-Service.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o
-.PHONY : Service.cpp.o
-
-Service.i: Service.cpp.i
-
-.PHONY : Service.i
-
-# target to preprocess a source file
-Service.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Service.cpp.i
-.PHONY : Service.cpp.i
-
-Service.s: Service.cpp.s
-
-.PHONY : Service.s
-
-# target to generate assembly for a file
-Service.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/Service.cpp.s
-.PHONY : Service.cpp.s
-
 Tests.o: Tests.cpp.o
 
 .PHONY : Tests.o
@@ -331,6 +277,114 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+repository/RepositoryAdoptedDogs.o: repository/RepositoryAdoptedDogs.cpp.o
+
+.PHONY : repository/RepositoryAdoptedDogs.o
+
+# target to build an object file
+repository/RepositoryAdoptedDogs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o
+.PHONY : repository/RepositoryAdoptedDogs.cpp.o
+
+repository/RepositoryAdoptedDogs.i: repository/RepositoryAdoptedDogs.cpp.i
+
+.PHONY : repository/RepositoryAdoptedDogs.i
+
+# target to preprocess a source file
+repository/RepositoryAdoptedDogs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.i
+.PHONY : repository/RepositoryAdoptedDogs.cpp.i
+
+repository/RepositoryAdoptedDogs.s: repository/RepositoryAdoptedDogs.cpp.s
+
+.PHONY : repository/RepositoryAdoptedDogs.s
+
+# target to generate assembly for a file
+repository/RepositoryAdoptedDogs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.s
+.PHONY : repository/RepositoryAdoptedDogs.cpp.s
+
+repository/RepositoryShelterDogs.o: repository/RepositoryShelterDogs.cpp.o
+
+.PHONY : repository/RepositoryShelterDogs.o
+
+# target to build an object file
+repository/RepositoryShelterDogs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o
+.PHONY : repository/RepositoryShelterDogs.cpp.o
+
+repository/RepositoryShelterDogs.i: repository/RepositoryShelterDogs.cpp.i
+
+.PHONY : repository/RepositoryShelterDogs.i
+
+# target to preprocess a source file
+repository/RepositoryShelterDogs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.i
+.PHONY : repository/RepositoryShelterDogs.cpp.i
+
+repository/RepositoryShelterDogs.s: repository/RepositoryShelterDogs.cpp.s
+
+.PHONY : repository/RepositoryShelterDogs.s
+
+# target to generate assembly for a file
+repository/RepositoryShelterDogs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.s
+.PHONY : repository/RepositoryShelterDogs.cpp.s
+
+service/ServiceAdmin.o: service/ServiceAdmin.cpp.o
+
+.PHONY : service/ServiceAdmin.o
+
+# target to build an object file
+service/ServiceAdmin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o
+.PHONY : service/ServiceAdmin.cpp.o
+
+service/ServiceAdmin.i: service/ServiceAdmin.cpp.i
+
+.PHONY : service/ServiceAdmin.i
+
+# target to preprocess a source file
+service/ServiceAdmin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.i
+.PHONY : service/ServiceAdmin.cpp.i
+
+service/ServiceAdmin.s: service/ServiceAdmin.cpp.s
+
+.PHONY : service/ServiceAdmin.s
+
+# target to generate assembly for a file
+service/ServiceAdmin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.s
+.PHONY : service/ServiceAdmin.cpp.s
+
+service/ServiceUser.o: service/ServiceUser.cpp.o
+
+.PHONY : service/ServiceUser.o
+
+# target to build an object file
+service/ServiceUser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o
+.PHONY : service/ServiceUser.cpp.o
+
+service/ServiceUser.i: service/ServiceUser.cpp.i
+
+.PHONY : service/ServiceUser.i
+
+# target to preprocess a source file
+service/ServiceUser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.i
+.PHONY : service/ServiceUser.cpp.i
+
+service/ServiceUser.s: service/ServiceUser.cpp.s
+
+.PHONY : service/ServiceUser.s
+
+# target to generate assembly for a file
+service/ServiceUser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a45_913AliceHincu.dir/build.make CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.s
+.PHONY : service/ServiceUser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -349,18 +403,24 @@ help:
 	@echo "... Exceptions.o"
 	@echo "... Exceptions.i"
 	@echo "... Exceptions.s"
-	@echo "... Repository.o"
-	@echo "... Repository.i"
-	@echo "... Repository.s"
-	@echo "... Service.o"
-	@echo "... Service.i"
-	@echo "... Service.s"
 	@echo "... Tests.o"
 	@echo "... Tests.i"
 	@echo "... Tests.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... repository/RepositoryAdoptedDogs.o"
+	@echo "... repository/RepositoryAdoptedDogs.i"
+	@echo "... repository/RepositoryAdoptedDogs.s"
+	@echo "... repository/RepositoryShelterDogs.o"
+	@echo "... repository/RepositoryShelterDogs.i"
+	@echo "... repository/RepositoryShelterDogs.s"
+	@echo "... service/ServiceAdmin.o"
+	@echo "... service/ServiceAdmin.i"
+	@echo "... service/ServiceAdmin.s"
+	@echo "... service/ServiceUser.o"
+	@echo "... service/ServiceUser.i"
+	@echo "... service/ServiceUser.s"
 .PHONY : help
 
 

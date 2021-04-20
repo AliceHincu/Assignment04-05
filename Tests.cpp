@@ -6,7 +6,7 @@
 #include <cassert>
 #include "Tests.h"
 #include "Dog.h"
-#include "Service.h"
+#include "service/ServiceAdmin.h"
 #include "Exceptions.h"
 
 
@@ -15,14 +15,15 @@ void Tests::runAllTests() {
     this->run_domain_tests();
     this->run_validation_tests();
     this->runServiceTests();
+    this->runServiceTestsUser();
     std::cout << "Finishing tests...\n";
 }
 
 void Tests::runServiceTests() {
     std::cout << "Starting service admin tests...\n";
 
-    Repository repo;
-    Service service(repo);
+    RepositoryShelterDogs repo;
+    ServiceAdmin service(repo);
 
     // add a dog function
     service.addDog("Hera", "Yorkshire Terrier", 6, "link");
@@ -41,7 +42,7 @@ void Tests::runServiceTests() {
         assert(serviceException.get_msg()=="Dog does not exist!\n\n");
     }
     service.removeDog("Hera");
-    assert(service.getDogs().getSize() == 0);
+    assert(service.getShelterDogs().getSize() == 0);
 
     // update a dog function
     service.addDog("Hera", "Yorkshire Terrier", 6, "link");
@@ -52,14 +53,21 @@ void Tests::runServiceTests() {
         assert(serviceException.get_msg()=="Dog does not exist!\n\n");
     }
     service.updateDog("Hera", "blaa", 3, "link3");
-    int age = service.getDogs().getCurrentElement().get_age();
-    std::string breed = service.getDogs().getCurrentElement().get_breed();
-    std::string photo = service.getDogs().getCurrentElement().get_photograph();
+    int age = service.getShelterDogs().getCurrentElement().get_age();
+    std::string breed = service.getShelterDogs().getCurrentElement().get_breed();
+    std::string photo = service.getShelterDogs().getCurrentElement().get_photograph();
     assert(age == 3);
     assert(breed == "blaa");
     assert(photo == "link3");
 
     std::cout << "Finishing service admin tests...\n";
+}
+
+void Tests::runServiceTestsUser() {
+    std::cout << "Starting service user tests...\n";
+
+
+    std::cout << "Finishing service user tests...\n";
 }
 
 void Tests::run_domain_tests() {

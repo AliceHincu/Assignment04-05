@@ -4,8 +4,58 @@
 CMakeFiles/a45_913AliceHincu.dir/Console.cpp.o
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.cpp
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.h
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray2.cpp.o
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray2.cpp
- /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray2.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.h
+CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
+CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.h
 CMakeFiles/a45_913AliceHincu.dir/main.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.h
  /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/main.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.h
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.h
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.h
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.h
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.cpp
+ /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.h

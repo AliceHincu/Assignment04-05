@@ -102,22 +102,9 @@ CMakeFiles/a45_913AliceHincu.dir/Console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/Console.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.cpp -o CMakeFiles/a45_913AliceHincu.dir/Console.cpp.s
 
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o: ../DynamicArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.cpp
-
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.cpp > CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.i
-
-CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/DynamicArray.cpp -o CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.s
-
 CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
 CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o: ../Dog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Dog.cpp
 
 CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.s: cmake_force
 
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o: ../Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.cpp
 
 CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.i: cmake_force
@@ -141,35 +128,35 @@ CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Tests.cpp -o CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.s
 
-CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
-CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o: ../Service.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.cpp
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o: ../service/ServiceAdmin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.cpp
 
-CMakeFiles/a45_913AliceHincu.dir/Service.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/Service.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.cpp > CMakeFiles/a45_913AliceHincu.dir/Service.cpp.i
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.cpp > CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.i
 
-CMakeFiles/a45_913AliceHincu.dir/Service.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/Service.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Service.cpp -o CMakeFiles/a45_913AliceHincu.dir/Service.cpp.s
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceAdmin.cpp -o CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.s
 
-CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
-CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o: ../Repository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.cpp
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o: ../repository/RepositoryShelterDogs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.cpp
 
-CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.cpp > CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.i
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.cpp > CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.i
 
-CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Repository.cpp -o CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.s
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryShelterDogs.cpp -o CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.s
 
 CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
 CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o: ../Exceptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.cpp
 
 CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.i: cmake_force
@@ -180,31 +167,59 @@ CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Exceptions.cpp -o CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.s
 
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o: ../service/ServiceUser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.cpp
+
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.cpp > CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.i
+
+CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/service/ServiceUser.cpp -o CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.s
+
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o: CMakeFiles/a45_913AliceHincu.dir/flags.make
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o: ../repository/RepositoryAdoptedDogs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o -c /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.cpp
+
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.cpp > CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.i
+
+CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/repository/RepositoryAdoptedDogs.cpp -o CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.s
+
 # Object files for target a45_913AliceHincu
 a45_913AliceHincu_OBJECTS = \
 "CMakeFiles/a45_913AliceHincu.dir/main.cpp.o" \
 "CMakeFiles/a45_913AliceHincu.dir/Console.cpp.o" \
-"CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o" \
 "CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o" \
 "CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o" \
-"CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o" \
-"CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o" \
-"CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o"
+"CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o" \
+"CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o" \
+"CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o" \
+"CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o" \
+"CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o"
 
 # External object files for target a45_913AliceHincu
 a45_913AliceHincu_EXTERNAL_OBJECTS =
 
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/main.cpp.o
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/Console.cpp.o
-a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/DynamicArray.cpp.o
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/Dog.cpp.o
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/Tests.cpp.o
-a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/Service.cpp.o
-a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/Repository.cpp.o
+a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/service/ServiceAdmin.cpp.o
+a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryShelterDogs.cpp.o
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/Exceptions.cpp.o
+a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/service/ServiceUser.cpp.o
+a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/repository/RepositoryAdoptedDogs.cpp.o
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/build.make
 a45_913AliceHincu: CMakeFiles/a45_913AliceHincu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable a45_913AliceHincu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable a45_913AliceHincu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a45_913AliceHincu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

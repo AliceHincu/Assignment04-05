@@ -13,6 +13,8 @@ private:
     void runServiceTests();
 public:
     void runAllTests();
+
+    void runServiceTestsUser();
 };
 
 #endif //A45_913ALICEHINCU_TESTS_H
