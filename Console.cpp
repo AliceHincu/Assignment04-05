@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <limits>
+#include <fstream>
 #include "Console.h"
 #include "Exceptions.h"
 
@@ -328,6 +329,9 @@ void Console::userShowDogUi(DynamicArray<Dog> dogs) {
     }
     std::cout << "\nCurrent dog:\n";
     Dog dog = dogs.getCurrentElement();  // get the current dog
+    //f"<mybrowser> {dog.get}"
+    //system();
+
     std::cout << dog;
 }
 

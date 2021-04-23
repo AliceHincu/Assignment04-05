@@ -11,6 +11,8 @@ iostream
 -
 limits
 -
+fstream
+-
 Console.h
 /mnt/c/Users/Sakura/Documents/GitHub/FP/a45-913AliceHincu/Console.h
 Exceptions.h
